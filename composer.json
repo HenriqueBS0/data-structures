@@ -1,0 +1,19 @@
+{
+    "name": "henrique/data-structures",
+    "description": "php data structures",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "HenriqueBS0\\DataStructures\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "HenriqueBS0",
+            "email": "henrique.10agr@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
