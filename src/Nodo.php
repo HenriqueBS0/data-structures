@@ -4,8 +4,8 @@ namespace HenriqueBS0\DataStructures;
 
 class Nodo {
     private mixed $content;
-    private Nodo $next;
-    private Nodo $previous;
+    private Nodo|null $next     = null;
+    private Nodo|null $previous = null;
 
 
     
@@ -37,7 +37,7 @@ class Nodo {
     /**
      * Get the value of next
      */ 
-    public function getNext() : Nodo
+    public function getNext() : Nodo | null
     {
         return $this->next;
     }
@@ -57,7 +57,7 @@ class Nodo {
     /**
      * Get the value of previous
      */ 
-    public function getPrevious() : Nodo
+    public function getPrevious() : Nodo | null
     {
         return $this->previous;
     }
