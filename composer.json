@@ -14,6 +14,7 @@
             "email": "henrique.10agr@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "php": ">=8.1.8"
+    }
 }
